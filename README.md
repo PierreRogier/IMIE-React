@@ -8,8 +8,13 @@ Si vous ne savez pas comment faire, voici un petit tuto: [ici](https://docs.gith
 ### Avant de lancer l'application
 
 Faites un: npm i
+
 Cela installera toutes les dependances nécessaires au projet
 
 ### Lancer l'application
 
 Faites un: npm start
+
+### Tester les examples
+
+Il vous suffit de choisir le composant correspondant dans App et de le mettre dans la div ".main"
