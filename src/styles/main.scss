@@ -24,18 +24,29 @@ body {
 	font-size: 2rem;
 }
 
-.form-control{
+.form-control {
 	display: flex;
-	
-	label{
+
+	label {
 		margin-right: 2rem;
 	}
 
-	input{
+	input {
 		font-size: 1.2rem;
 	}
 }
 
-.error{
+.error {
 	color: red;
+}
+
+.randomContainer {
+	margin-top: 4rem;
+	.person {
+		display: flex;
+
+		img {
+			margin-right: 2rem;
+		}
+	}
 }
