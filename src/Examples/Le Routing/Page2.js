@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FormulairesExample1 } from "../index";
 
 const Page2 = () => {
 	return (
@@ -8,6 +9,9 @@ const Page2 = () => {
 			<nav>
 				<Link to="/">Accueil</Link>
 			</nav>
+			<div className="main">
+				<FormulairesExample1 />
+			</div>
 		</div>
 	);
 };
