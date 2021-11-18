@@ -39,6 +39,7 @@ const FormulairesExample1 = () => {
 						return <p key={index}>{todo}</p>;
 					})}
 			</div>
+			<button onClick={() => setTodos([])}>Effecer les todos</button>
 		</div>
 	);
 };
