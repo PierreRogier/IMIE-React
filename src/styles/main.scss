@@ -23,3 +23,19 @@ body {
 	margin-top: 4rem;
 	font-size: 2rem;
 }
+
+.form-control{
+	display: flex;
+	
+	label{
+		margin-right: 2rem;
+	}
+
+	input{
+		font-size: 1.2rem;
+	}
+}
+
+.error{
+	color: red;
+}
