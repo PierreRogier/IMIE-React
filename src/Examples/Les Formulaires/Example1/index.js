@@ -7,7 +7,8 @@ const FormulairesExample1 = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		if (todo === "") {
+		const checkTodo = todo;
+		if (checkTodo.trim() === "") {
 			setError("Ce champs ne peut pas être vide");
 			return;
 		}

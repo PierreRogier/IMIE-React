@@ -21,6 +21,7 @@ const ApiCallExample1 = () => {
 		}
 	};
 
+
 	useEffect(() => {
 		fetchRandomUser();
 	}, []);
@@ -32,6 +33,7 @@ const ApiCallExample1 = () => {
 	if (fetchError) {
 		return <h3>{fetchError}</h3>;
 	}
+	
 
 	return (
 		<div>
