@@ -6,6 +6,8 @@ import StateExample1 from "./Les States/Example1";
 import StateExample2 from "./Les States/Example2";
 import FormulairesExample1 from "./Les Formulaires/Example1";
 import ApiCallExample1 from "./Les Calls Api/Example1";
+import Page2 from "./Le Routing/Page2";
+import ErrorPage from "./Le Routing/404";
 
 export {
 	PropsExample1,
@@ -15,5 +17,7 @@ export {
 	StateExample1,
 	StateExample2,
 	FormulairesExample1,
-    ApiCallExample1
+	ApiCallExample1,
+	Page2,
+	ErrorPage
 };
