@@ -28,6 +28,10 @@ const LocalStorageExample1 = () => {
 		setError("");
 	};
 
+	const deleteTodo = (id) => {
+		setTodos(todos.filter((todo) => todo.id != id));
+	};
+	
 	useEffect(() => {
 		localStorage.setItem("list", JSON.stringify(todos));
 	}, [todos]);
@@ -56,7 +60,12 @@ const LocalStorageExample1 = () => {
 					<h3>Mes todos :</h3>
 					{todos &&
 						todos.map((todo, index) => {
-							return <p key={index}>{todo.content}</p>;
+							return (
+								<div key={index}>
+									<p>{todo.content}</p>
+									<button onClick={() => deleteTodo(todo.id)}>supprimer</button>
+								</div>
+							);
 						})}
 				</div>
 				<button onClick={() => setTodos([])}>Effecer les todos</button>
