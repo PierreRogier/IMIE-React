@@ -6,15 +6,13 @@ const TableauxExample1 = () => {
 		{ prenom: "Jean-Luc", nom: "Melanchon" },
 		{ prenom: "Xavier", nom: "Bertrand" },
 	];
-
+	
+	// Il ne faut pas oublier de rajouter une "key" lorsque l'on map un tableau en react, ça permet à react d'identifier chaque itération
 	return (
 		<div>
 			{monTableau.map((personne, index) => {
-				{
-					/* Il ne faut pas oublier de rajouter une "key" lorsque l'on map un tableau en react, ça permet à react d'identifier chaque itération */
-				}
 				return (
-					<p key={index}>
+					<p key={index}> 
 						Je suis {personne.prenom} {personne.nom}
 					</p>
 				);

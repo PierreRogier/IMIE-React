@@ -8,6 +8,7 @@ import FormulairesExample1 from "./Les Formulaires/Example1";
 import ApiCallExample1 from "./Les Calls Api/Example1";
 import Page2 from "./Le Routing/Page2";
 import ErrorPage from "./Le Routing/404";
+import LocalStorageExample1 from "./Localstorage/Exemple1";
 
 export {
 	PropsExample1,
@@ -19,5 +20,6 @@ export {
 	FormulairesExample1,
 	ApiCallExample1,
 	Page2,
-	ErrorPage
+	ErrorPage,
+	LocalStorageExample1
 };
